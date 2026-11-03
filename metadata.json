@@ -1,0 +1,6 @@
+{
+  "name": "RDX CRM — WhatsApp CRM Platform",
+  "description": "Smart Conversations. Better Customer Relationships. Complete WhatsApp CRM with customer inbox, sales pipeline, AI assistant, automation, and full super-admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

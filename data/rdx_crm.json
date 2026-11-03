@@ -1,0 +1,967 @@
+{
+  "users": [
+    {
+      "id": "usr_super_admin_01",
+      "name": "Ghufran King",
+      "email": "admin@rdxcrm.com",
+      "passwordHash": "dd6fa6f47b19f3910e9cbf14e3690b3d095e3d15b86d5c461addcd90fac68e3351526987c9aeac35190f1b8642661303448a0b3925fa221ba8b66c12197eb86c",
+      "salt": "1c6ad2210684c877e575770020514587",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "businessName": "RDX CRM HQ",
+      "status": "active",
+      "phone": "+923138066389",
+      "createdAt": "2026-01-01T00:00:00Z",
+      "lastLoginAt": "2026-11-03T02:51:02.954Z"
+    },
+    {
+      "id": "usr_biz_01",
+      "name": "Sarah Jenkins",
+      "email": "sarah@techcorp.io",
+      "passwordHash": "b7eb94ed48848122121607eeda275d695aab36e6e26838399fbabcaeadd0dacc48856204d8d707fee83f57e554307a9ad74b677d4183e46495897a9d6cd0f811",
+      "salt": "3d899149187f8a095c1e2aa43935fdbe",
+      "role": "Business Owner",
+      "businessId": "biz_01",
+      "businessName": "TechCorp Logistics",
+      "status": "active",
+      "phone": "+1 (555) 234-5678",
+      "createdAt": "2026-02-10T11:20:00Z",
+      "lastLoginAt": "2026-11-02T20:21:46.579Z"
+    },
+    {
+      "id": "usr_agent_01",
+      "name": "Marcus Vance",
+      "email": "marcus@techcorp.io",
+      "passwordHash": "216b704fd0cef616a16c48f90676ae27a83ef5c2536e14b25dabd431fbd03670b19656130e2d14535ce1e9767556e67e3e715ba545e4bdac521cf6d70e1d827e",
+      "salt": "b31d7c3eeeb863a0ce5f56d81fbadd87",
+      "role": "Team Agent",
+      "businessId": "biz_01",
+      "businessName": "TechCorp Logistics",
+      "status": "active",
+      "phone": "+1 (555) 876-5432",
+      "createdAt": "2026-02-15T14:00:00Z"
+    },
+    {
+      "id": "usr_biz_02",
+      "name": "David Zhao",
+      "email": "david@apexretail.com",
+      "passwordHash": "689a70e96a00defde47c4f54d5f4da449b654a56a6f27b34edf263804dd6ddea70f2922dd520f76e9e224deb37ee5ac08ebdd0b748dfe5beef54c6ac10d30541",
+      "salt": "0a7af7620a302a930ebad75064d78866",
+      "role": "Business Owner",
+      "businessId": "biz_02",
+      "businessName": "Apex Retail Distribution",
+      "status": "active",
+      "phone": "+44 20 7946 0912",
+      "createdAt": "2026-03-01T09:30:00Z"
+    },
+    {
+      "id": "usr_1793648940485_09f4b446",
+      "name": "Ghufran King",
+      "email": "ghufrankingrdx12@gmail.com",
+      "passwordHash": "dd6fa6f47b19f3910e9cbf14e3690b3d095e3d15b86d5c461addcd90fac68e3351526987c9aeac35190f1b8642661303448a0b3925fa221ba8b66c12197eb86c",
+      "salt": "1c6ad2210684c877e575770020514587",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "businessName": "RDX CRM HQ",
+      "status": "active",
+      "phone": "+923138066389",
+      "createdAt": "2026-11-02T19:49:00.488Z",
+      "lastLoginAt": "2026-11-03T02:50:57.785Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "f624002275e7b2b3223c9610c957088ebd06cc66a5fc19e10df451b792e01248",
+      "userId": "usr_biz_01",
+      "businessId": "biz_01",
+      "role": "Business Owner",
+      "expiresAt": "2026-10-27T16:55:32.961Z",
+      "createdAt": "2026-10-20T16:55:32.961Z"
+    },
+    {
+      "token": "dddb6a143d048423e96f30765942079739871c41c35dc024671039defcc8777e",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-10-27T16:55:56.053Z",
+      "createdAt": "2026-10-20T16:55:56.053Z"
+    },
+    {
+      "token": "dbfbf108e61d61449820aa64e54c83019785479c3e5822fecba33f8841ac2125",
+      "userId": "usr_1793648940485_09f4b446",
+      "businessId": "biz_1793648940485_88f0e0d3",
+      "role": "Business Owner",
+      "expiresAt": "2026-11-09T19:49:00.488Z",
+      "createdAt": "2026-11-02T19:49:00.488Z"
+    },
+    {
+      "token": "9aba847a59f13de17acf372b64a21901c53082b79a2826f6e79bfea9818a6023",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-09T19:57:44.364Z",
+      "createdAt": "2026-11-02T19:57:44.364Z"
+    },
+    {
+      "token": "d9ab48ac91e58e976f0674e7708e6da3fae32bc91c2236b76e7f27a515a6d5fb",
+      "userId": "usr_biz_01",
+      "businessId": "biz_01",
+      "role": "Business Owner",
+      "expiresAt": "2026-11-09T20:21:46.579Z",
+      "createdAt": "2026-11-02T20:21:46.579Z"
+    },
+    {
+      "token": "de8e7616aaa0da228c5c496660329c405c0757c53b8dace568cc22937ee4e497",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-09T20:22:02.798Z",
+      "createdAt": "2026-11-02T20:22:02.798Z"
+    },
+    {
+      "token": "68efb60aea1fbfe68b2fc76e8a7d9732073a8a75ce6f8017b556164c9f15d221",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-10T02:49:31.593Z",
+      "createdAt": "2026-11-03T02:49:31.593Z"
+    },
+    {
+      "token": "df5a9cfb20a2f7f0de8952afc48bbffd6e4bf7c445a0f651274e8956bc4041ed",
+      "userId": "usr_1793648940485_09f4b446",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-10T02:50:03.600Z",
+      "createdAt": "2026-11-03T02:50:03.600Z"
+    },
+    {
+      "token": "41365bc9b543327fbb9ce345e40bdd2031ce78e6a9dc5865d86ff1d82b8df2d4",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-10T02:50:08.171Z",
+      "createdAt": "2026-11-03T02:50:08.171Z"
+    },
+    {
+      "token": "0b6045161871cbf34c14f3f59155c03283ba73e9b8f8fca1e0f01d4c90e85ff0",
+      "userId": "usr_1793648940485_09f4b446",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-10T02:50:57.785Z",
+      "createdAt": "2026-11-03T02:50:57.785Z"
+    },
+    {
+      "token": "3c36f7f7f9077d51afed800fac64df24ac4c18b4eba51e2c0fcb0b00b7f1e1f0",
+      "userId": "usr_super_admin_01",
+      "businessId": "biz_platform_hq",
+      "role": "Platform Super Admin",
+      "expiresAt": "2026-11-10T02:51:02.954Z",
+      "createdAt": "2026-11-03T02:51:02.954Z"
+    }
+  ],
+  "passwordResets": [],
+  "businesses": [
+    {
+      "id": "biz_01",
+      "name": "TechCorp Logistics",
+      "ownerEmail": "sarah@techcorp.io",
+      "planId": "growth",
+      "status": "active",
+      "connectedSince": "2026-02-10T11:20:00Z",
+      "metaPhoneId": "PHONE_ID_TECHCORP_DEMO",
+      "metaWabaId": "WABA_TECHCORP_DEMO",
+      "metaVerifyToken": "rdx_token_meta_cloud_waba_2026",
+      "whatsappPhone": "+1 (555) 019-2831",
+      "aiSettings": {
+        "enabled": true,
+        "businessPrompt": "You are an expert customer service representative for TechCorp Logistics. TechCorp specializes in cold-chain, pharmaceutical freight, and bonded container shipping between Karachi, Dubai, London, and New York. Deliver accurate, professional, and courteous service.",
+        "tone": "professional",
+        "language": "English",
+        "knowledgeBase": "Q: What are the pallet rates for bonded warehousing?\nA: Bonded warehousing starts at $45/pallet/month with 24/7 temperature monitoring.\nQ: What is the transit time from Karachi to London Gateway?\nA: Approximately 18 to 22 sea transit days.",
+        "autoReplyOutsideHours": true,
+        "handoverKeywords": [
+          "human",
+          "agent",
+          "urgent",
+          "dispute",
+          "speak with someone",
+          "manager"
+        ],
+        "monthlyUsageLimit": 5000,
+        "usageThisMonth": 120
+      },
+      "messagesSentThisMonth": 4210,
+      "messageLimit": 12000,
+      "agentSeatsLimit": 10
+    },
+    {
+      "id": "biz_02",
+      "name": "Apex Retail Distribution",
+      "ownerEmail": "david@apexretail.com",
+      "planId": "enterprise",
+      "status": "active",
+      "connectedSince": "2026-03-01T09:30:00Z",
+      "metaPhoneId": "PHONE_ID_APEX_DEMO",
+      "metaWabaId": "WABA_APEX_DEMO",
+      "metaVerifyToken": "rdx_token_meta_cloud_waba_2026",
+      "whatsappPhone": "+44 20 7946 0912",
+      "aiSettings": {
+        "enabled": false,
+        "businessPrompt": "Apex Retail customer support",
+        "tone": "friendly",
+        "language": "English",
+        "knowledgeBase": "Fast wholesale consumer retail delivery across the UK.",
+        "autoReplyOutsideHours": false,
+        "handoverKeywords": [
+          "agent"
+        ],
+        "monthlyUsageLimit": 20000,
+        "usageThisMonth": 0
+      },
+      "messagesSentThisMonth": 18450,
+      "messageLimit": 60000,
+      "agentSeatsLimit": 35
+    },
+    {
+      "id": "biz_1793648940485_88f0e0d3",
+      "name": "Ghufran",
+      "ownerEmail": "ghufrankingrdx12@gmail.com",
+      "planId": "starter",
+      "status": "active",
+      "connectedSince": "2026-11-02T19:49:00.488Z",
+      "whatsappPhone": "03183393813",
+      "aiSettings": {
+        "enabled": true,
+        "businessPrompt": "Welcome to Ghufran. We are here to assist with your inquiries.",
+        "tone": "professional",
+        "language": "English",
+        "knowledgeBase": "",
+        "autoReplyOutsideHours": true,
+        "handoverKeywords": [
+          "agent",
+          "human",
+          "help",
+          "representative"
+        ],
+        "monthlyUsageLimit": 5000,
+        "usageThisMonth": 0
+      },
+      "messagesSentThisMonth": 0,
+      "messageLimit": 2500,
+      "agentSeatsLimit": 3
+    }
+  ],
+  "contacts": [
+    {
+      "id": "cnt_01",
+      "businessId": "biz_01",
+      "name": "Kamran Ashraf",
+      "phone": "+92 312 4567890",
+      "email": "kamran@falconfreight.com",
+      "company": "Falcon Freight Solutions",
+      "tags": [
+        "Wholesale",
+        "High Priority",
+        "Fleet Owner"
+      ],
+      "leadSource": "WhatsApp Inbound",
+      "leadStatus": "Qualified",
+      "assignedToAgentId": "usr_agent_01",
+      "assignedToAgentName": "Marcus Vance",
+      "notes": [
+        {
+          "id": "n_01",
+          "authorName": "Marcus Vance",
+          "text": "Client requested automated quotation for 12 refrigerated containers per month Karachi-Dubai route.",
+          "timestamp": "2026-03-08T15:30:00Z"
+        }
+      ],
+      "customFields": {
+        "ContainerType": "Reefer 40ft",
+        "Destination": "Jebel Ali Port"
+      },
+      "estimatedDealValue": 14500,
+      "createdAt": "2026-03-02T10:15:00Z",
+      "lastContactedAt": "2026-03-10T14:22:00Z"
+    },
+    {
+      "id": "cnt_02",
+      "businessId": "biz_01",
+      "name": "Elena Rostova",
+      "phone": "+44 7700 900123",
+      "email": "elena@novapharma.co.uk",
+      "company": "Nova Healthcare UK",
+      "tags": [
+        "Medical Logistics",
+        "Temperature Sensitive"
+      ],
+      "leadSource": "Website Form",
+      "leadStatus": "Contacted",
+      "assignedToAgentId": "usr_biz_01",
+      "assignedToAgentName": "Sarah Jenkins",
+      "notes": [],
+      "customFields": {
+        "GDPCompliant": "Yes"
+      },
+      "estimatedDealValue": 28000,
+      "createdAt": "2026-03-05T09:00:00Z",
+      "lastContactedAt": "2026-03-10T11:45:00Z"
+    },
+    {
+      "id": "cnt_apex_private_01",
+      "businessId": "biz_02",
+      "name": "Sir Arthur Wellesley",
+      "phone": "+44 20 8911 2233",
+      "email": "arthur@wellesleyretail.co.uk",
+      "company": "Wellesley Department Stores",
+      "tags": [
+        "VIP Client",
+        "Confidential UK Accounts"
+      ],
+      "leadSource": "Direct Referral",
+      "leadStatus": "Won",
+      "assignedToAgentId": "usr_biz_02",
+      "assignedToAgentName": "David Zhao",
+      "notes": [
+        {
+          "id": "n_priv",
+          "authorName": "David Zhao",
+          "text": "Confidential £120k contract",
+          "timestamp": "2026-03-01"
+        }
+      ],
+      "customFields": {
+        "CreditLimit": "£500,000"
+      },
+      "estimatedDealValue": 120000,
+      "createdAt": "2026-03-01T10:00:00Z",
+      "lastContactedAt": "2026-03-01T10:00:00Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_01",
+      "businessId": "biz_01",
+      "contactId": "cnt_01",
+      "contactName": "Kamran Ashraf",
+      "contactPhone": "+92 312 4567890",
+      "unreadCount": 1,
+      "state": "open",
+      "lastMessageText": "Can you provide the bill of lading tracking number for vessel MV Indus Star?",
+      "lastMessageTime": "10:42 AM",
+      "assignedAgentId": "usr_agent_01",
+      "assignedAgentName": "Marcus Vance",
+      "leadStatus": "Qualified",
+      "isHandedOverToHuman": true
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_01_1",
+      "conversationId": "conv_01",
+      "businessId": "biz_01",
+      "sender": "customer",
+      "text": "Hello Sarah & Marcus, hope you are well. We are finalizing our April cargo schedule.",
+      "timestamp": "10:30 AM",
+      "status": "read"
+    },
+    {
+      "id": "msg_01_2",
+      "conversationId": "conv_01",
+      "businessId": "biz_01",
+      "sender": "agent",
+      "senderName": "Marcus Vance",
+      "text": "Hello Mr. Kamran! Great to connect. Your quote for the 12 reefer containers was sent to your email.",
+      "timestamp": "10:35 AM",
+      "status": "read"
+    },
+    {
+      "id": "msg_01_3",
+      "conversationId": "conv_01",
+      "businessId": "biz_01",
+      "sender": "customer",
+      "text": "Can you provide the bill of lading tracking number for vessel MV Indus Star?",
+      "timestamp": "10:42 AM",
+      "status": "delivered"
+    },
+    {
+      "id": "msg_1793649475639_7e33e7",
+      "conversationId": "conv_1793649475639",
+      "businessId": "biz_01",
+      "sender": "agent",
+      "senderName": "Marcus Vance",
+      "text": "Testing Meta automated exponential backoff",
+      "timestamp": "07:57 PM",
+      "status": "delivered",
+      "recipientPhone": "923001234567",
+      "retryCount": 1,
+      "maxRetries": 3,
+      "retryHistory": [
+        {
+          "attempt": 1,
+          "timestamp": "2026-11-02T19:57:55.669Z",
+          "delayMs": 1584,
+          "status": "Retrying",
+          "error": "Meta API Error 503: Service Temporarily Unavailable - Rate limit throttle (Simulated attempt 1/2)"
+        },
+        {
+          "attempt": 1,
+          "timestamp": "2026-11-02T20:05:52.099Z",
+          "delayMs": 1000,
+          "status": "delivered"
+        }
+      ],
+      "metaMessageId": "wamid.sim_1793649952099_4a57a069"
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal_01",
+      "businessId": "biz_01",
+      "title": "Cold Chain Pharma Express (6 Mo)",
+      "contactId": "cnt_02",
+      "contactName": "Elena Rostova",
+      "contactPhone": "+44 7700 900123",
+      "stage": "contacted",
+      "value": 28000,
+      "currency": "USD",
+      "assignedAgent": "Sarah Jenkins",
+      "expectedCloseDate": "2026-04-01",
+      "priority": "high"
+    }
+  ],
+  "tasks": [],
+  "n8nWorkflows": [
+    {
+      "id": "n8n_wf_01",
+      "name": "1. Inbound WhatsApp Message Ingestion",
+      "triggerEvent": "whatsapp.message.received",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/whatsapp-inbound",
+      "active": true,
+      "description": "Validates payload, locates business by Phone ID, verifies contact, and notifies agents."
+    },
+    {
+      "id": "n8n_wf_02",
+      "name": "2. New Lead Pipeline Synchronizer",
+      "triggerEvent": "crm.lead.created",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/new-lead-sync",
+      "active": true,
+      "description": "Updates CRM contact, calculates preliminary score, and notifies assigned agent."
+    },
+    {
+      "id": "n8n_wf_03",
+      "name": "3. AI Intent & Triage Classifier",
+      "triggerEvent": "ai.intent.classified",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/ai-triage",
+      "active": true,
+      "description": "Routes urgent complaints or refund requests to human supervisor; dispatches approved FAQs."
+    },
+    {
+      "id": "n8n_wf_04",
+      "name": "4. Unanswered Enquiry Auto Follow-up",
+      "triggerEvent": "crm.enquiry.unanswered",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/followup-scheduler",
+      "active": true,
+      "description": "Creates high-priority follow-up task if lead is unaddressed for over 15 minutes."
+    },
+    {
+      "id": "n8n_wf_05",
+      "name": "5. Qualified Deal Pipeline Advance",
+      "triggerEvent": "pipeline.deal.qualified",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/deal-advance",
+      "active": true,
+      "description": "Sends formal quotation template on WhatsApp when deal advances to Qualified or Won."
+    },
+    {
+      "id": "n8n_wf_06",
+      "name": "6. Human Agent Handover Interceptor",
+      "triggerEvent": "agent.handover.requested",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/human-handover",
+      "active": true,
+      "description": "Disables automated bots, sets chat state to Open, and sends push alert to on-duty staff."
+    },
+    {
+      "id": "n8n_wf_07",
+      "name": "7. API Failure & Telemetry Alert",
+      "triggerEvent": "api.error.failure",
+      "webhookUrl": "https://n8n.rdxcrm.internal/webhook/system-alerts",
+      "active": true,
+      "description": "Records failed WhatsApp deliveries or Meta Graph API 4xx/5xx codes to incident channel."
+    }
+  ],
+  "workflowExecutions": [],
+  "auditLogs": [
+    {
+      "id": "log_1793649952099_68dd",
+      "timestamp": "2026-11-02 20:05:52",
+      "actor": "WhatsApp Retry Engine",
+      "role": "system",
+      "businessId": "biz_01",
+      "action": "OUTBOUND_MESSAGE_RETRY_SUCCESS",
+      "target": "923001234567: Successfully delivered on retry attempt 1/3 (WAMID: wamid.sim_1793649952099_4a57a069)",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793649475669_e73d",
+      "timestamp": "2026-11-02 19:57:55",
+      "actor": "WhatsApp Retry Engine",
+      "role": "system",
+      "businessId": "biz_01",
+      "action": "OUTBOUND_MESSAGE_RETRYING",
+      "target": "923001234567: Send failed (Meta API Error 503: Service Temporarily Unavailable - Rate limit throttle (Simulated attempt 1/2)). Status set to 'Retrying'. Scheduled retry 1/3 in 1584ms.",
+      "ipAddress": "127.0.0.1",
+      "status": "Warning"
+    },
+    {
+      "id": "log_seed_01",
+      "timestamp": "2026-10-20 16:55:15",
+      "actor": "System Provisioning",
+      "role": "system",
+      "action": "INIT_SYSTEM_DATABASE",
+      "target": "Multi-Tenant Database Initialized with Root Super Admin",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1792515332961",
+      "timestamp": "2026-10-20 16:55:32",
+      "actor": "Sarah Jenkins (sarah@techcorp.io)",
+      "role": "Business Owner",
+      "businessId": "biz_01",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1792515343585",
+      "timestamp": "2026-10-20 16:55:43",
+      "actor": "admin@rdxcrm.com",
+      "role": "unauthenticated",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "target": "Credential Verification Failure",
+      "ipAddress": "127.0.0.1",
+      "status": "Warning"
+    },
+    {
+      "id": "log_1792515356053",
+      "timestamp": "2026-10-20 16:55:56",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793648940488",
+      "timestamp": "2026-11-02 19:49:00",
+      "actor": "King (ghufrankingrdx12@gmail.com)",
+      "role": "Business Owner",
+      "businessId": "biz_1793648940485_88f0e0d3",
+      "action": "ORGANIZATION_REGISTER",
+      "target": "New Business Tenant created: Ghufran",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793649443348",
+      "timestamp": "2026-11-02 19:57:23",
+      "actor": "admin@rdxcrm.com",
+      "role": "unauthenticated",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "target": "Credential Verification Failure",
+      "ipAddress": "127.0.0.1",
+      "status": "Warning"
+    },
+    {
+      "id": "log_1793649464364",
+      "timestamp": "2026-11-02 19:57:44",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793650906579",
+      "timestamp": "2026-11-02 20:21:46",
+      "actor": "Sarah Jenkins (sarah@techcorp.io)",
+      "role": "Business Owner",
+      "businessId": "biz_01",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793650922798",
+      "timestamp": "2026-11-02 20:22:02",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793674166943",
+      "timestamp": "2026-11-03 02:49:26",
+      "actor": "ghufrankingrdx12@gmail.com",
+      "role": "unauthenticated",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "target": "Credential Verification Failure",
+      "ipAddress": "127.0.0.1",
+      "status": "Warning"
+    },
+    {
+      "id": "log_1793674171593",
+      "timestamp": "2026-11-03 02:49:31",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793674179482",
+      "timestamp": "2026-11-03 02:49:39",
+      "actor": "ghufrankingrdx12@gmail.com",
+      "role": "unauthenticated",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "target": "Credential Verification Failure",
+      "ipAddress": "127.0.0.1",
+      "status": "Warning"
+    },
+    {
+      "id": "log_1793674203600",
+      "timestamp": "2026-11-03 02:50:03",
+      "actor": "Ghufran King (ghufrankingrdx12@gmail.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793674208171",
+      "timestamp": "2026-11-03 02:50:08",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793674257785",
+      "timestamp": "2026-11-03 02:50:57",
+      "actor": "Ghufran King (ghufrankingrdx12@gmail.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    },
+    {
+      "id": "log_1793674262954",
+      "timestamp": "2026-11-03 02:51:02",
+      "actor": "Ghufran King (admin@rdxcrm.com)",
+      "role": "Platform Super Admin",
+      "businessId": "biz_platform_hq",
+      "action": "USER_LOGIN",
+      "target": "Authenticated Session Created",
+      "ipAddress": "127.0.0.1",
+      "status": "Success"
+    }
+  ],
+  "processedWebhookMessageIds": {},
+  "websiteContent": {
+    "heroHeadline": "Manage Every Customer Conversation in One Place",
+    "heroSubtitle": "Empower your sales, support, and operations teams with an enterprise-grade WhatsApp CRM. Built for speed, team collaboration, and measurable deal velocity.",
+    "announcementText": "🚀 Official WhatsApp Cloud API integration is live! Start managing customer conversations in real-time.",
+    "announcementActive": true,
+    "aboutMission": "RDX CRM connects modern commerce teams to where their customers already communicate: WhatsApp. We eliminate scattered chats, unassigned leads, and delayed replies with a unified team inbox, smart pipeline tracking, and workflow automation.",
+    "contactPhone": "+923138066389",
+    "contactWhatsappLink": "https://wa.me/923138066389",
+    "contactEmail": "contact@rdxcrm.com",
+    "footerText": "© 2026 RDX CRM. All rights reserved. Smart Conversations. Better Customer Relationships."
+  },
+  "platformSettings": {
+    "platformName": "RDX CRM",
+    "tagline": "Smart Conversations. Better Customer Relationships.",
+    "whatsappNumber": "+923138066389",
+    "whatsappLink": "https://wa.me/923138066389",
+    "supportEmail": "support@rdxcrm.com",
+    "defaultTimezone": "Asia/Karachi (GMT+5)",
+    "maintenanceMode": false,
+    "registrationOpen": true,
+    "metaCloudApiVersion": "v20.0"
+  },
+  "theme": "premium_white",
+  "incomingWebhookLogs": [
+    {
+      "id": "wh_log_01",
+      "timestamp": "2026-11-02T19:33:33.846Z",
+      "signature": "sha256=9f8e4b7c2a1d0f5e8c3b6a9d2e1f4a7c0b3d6e9f1a2c5b8d0e3f6a9c2b5e8a1d",
+      "signatureValid": true,
+      "deliveryStatus": "processed",
+      "eventType": "messages",
+      "payloadSummary": "Inbound customer inquiry from +923138066389 (1 text message)",
+      "senderPhone": "+923138066389",
+      "recipientPhoneId": "105948382718291",
+      "wamid": "wamid.HBgMOTIzMTM4MDY2Mzg5FQIAEhggM0Y3NDk2NTE5RjhFMkM0OUE0RUUy",
+      "businessId": "biz_01",
+      "rawPayloadSnippet": "{\n  \"object\": \"whatsapp_business_account\",\n  \"entry\": [\n    {\n      \"id\": \"104829104928172\",\n      \"changes\": [\n        {\n          \"value\": {\n            \"messaging_product\": \"whatsapp\",\n            \"metadata\": {\n              \"display_phone_number\": \"+923138066389\",\n              \"phone_number_id\": \"105948382718291\"\n            },\n            \"contacts\": [\n              {\n                \"profile\": {\n                  \"name\": \"Kamran Logistics\"\n                },\n                \"wa_id\": \"923138066389\"\n              }\n            ],\n            \"messages\": [\n              {\n                \"from\": \"923138066389\",\n                \"id\": \"wamid.HBgMOTIzMTM4MDY2Mzg5FQIAEhggM0Y3NDk2NTE5RjhFMkM0OUE0RUUy\",\n                \"timestamp\": \"1745812920\",\n                \"text\": {\n                  \"body\": \"Can you provide the bill of lading tracking number for vessel MV Indus Star?\"\n                },\n                \"type\": \"text\"\n              }\n            ]\n          },\n          \"field\": \"messages\"\n        }\n      ]\n    }\n  ]\n}",
+      "httpStatus": 200
+    },
+    {
+      "id": "wh_log_02",
+      "timestamp": "2026-11-02T19:20:33.846Z",
+      "signature": "sha256=1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+      "signatureValid": true,
+      "deliveryStatus": "delivered",
+      "eventType": "statuses",
+      "payloadSummary": "Message delivery status update: delivered to +447700900123",
+      "senderPhone": "+447700900123",
+      "recipientPhoneId": "105948382718291",
+      "wamid": "wamid.HBgNDNDc3MDA5MDAxMjMxFgIAEhggMUEyQjNDNEQ1RTZG",
+      "businessId": "biz_01",
+      "rawPayloadSnippet": "{\n  \"object\": \"whatsapp_business_account\",\n  \"entry\": [\n    {\n      \"id\": \"104829104928172\",\n      \"changes\": [\n        {\n          \"value\": {\n            \"messaging_product\": \"whatsapp\",\n            \"metadata\": {\n              \"display_phone_number\": \"+923138066389\",\n              \"phone_number_id\": \"105948382718291\"\n            },\n            \"statuses\": [\n              {\n                \"id\": \"wamid.HBgNDNDc3MDA5MDAxMjMxFgIAEhggMUEyQjNDNEQ1RTZG\",\n                \"status\": \"delivered\",\n                \"timestamp\": \"1745812140\",\n                \"recipient_id\": \"447700900123\"\n              }\n            ]\n          },\n          \"field\": \"messages\"\n        }\n      ]\n    }\n  ]\n}",
+      "httpStatus": 200
+    },
+    {
+      "id": "wh_log_03",
+      "timestamp": "2026-11-02T18:45:33.846Z",
+      "signatureValid": true,
+      "deliveryStatus": "delivered",
+      "eventType": "verification_challenge",
+      "payloadSummary": "Meta Webhook Handshake verified (hub.mode=subscribe, hub.challenge accepted)",
+      "rawPayloadSnippet": "{\n  \"hub.mode\": \"subscribe\",\n  \"hub.verify_token\": \"rdx_token_meta_cloud_waba_2026\",\n  \"hub.challenge\": \"115820948293182\"\n}",
+      "httpStatus": 200
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "cmp_01",
+      "businessId": "biz_01",
+      "name": "Ramadan Wholesale Flash Offer",
+      "audienceSegment": "Wholesale Clients",
+      "templateId": "tmpl_promo_01",
+      "templateName": "ramadan_special_discount",
+      "status": "Completed",
+      "totalRecipients": 450,
+      "deliveredCount": 442,
+      "readCount": 388,
+      "failedCount": 8,
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "cmp_02",
+      "businessId": "biz_01",
+      "name": "Logistics Fleet Tracking Alert",
+      "audienceSegment": "Active Shipments",
+      "templateId": "tmpl_tracking_02",
+      "templateName": "shipment_vessel_update",
+      "status": "Sending",
+      "totalRecipients": 120,
+      "deliveredCount": 95,
+      "readCount": 82,
+      "failedCount": 0,
+      "createdAt": "2026-03-03T08:30:00Z"
+    }
+  ],
+  "chatbots": [
+    {
+      "id": "bot_01",
+      "businessId": "biz_01",
+      "name": "24/7 Inbound Lead Qualifier",
+      "triggerKeyword": "HI, HELLO, INFO, PRICING",
+      "flowJson": "{\"nodes\":[{\"id\":\"1\",\"type\":\"trigger\",\"data\":{\"label\":\"Keyword Match: HI, HELLO\"}},{\"id\":\"2\",\"type\":\"message\",\"data\":{\"label\":\"Welcome! How can we assist your business today?\"}},{\"id\":\"3\",\"type\":\"buttons\",\"data\":{\"options\":[\"View Freight Rates\",\"Track Shipment\",\"Talk to Agent\"]}}]}",
+      "active": true,
+      "fallbackMessage": "Thank you for messaging us. Our team will get back to you shortly.",
+      "workingHoursOnly": false,
+      "handoverToHuman": true,
+      "createdAt": "2026-02-15T10:00:00Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt_01",
+      "businessId": "biz_01",
+      "contactId": "cnt_01",
+      "contactName": "Kamran Ashraf",
+      "contactPhone": "+92 312 4567890",
+      "title": "Fleet Contract Renewal & Pricing Discussion",
+      "scheduledTime": "2026-03-10T14:00:00",
+      "status": "Confirmed",
+      "notes": "Discuss 15-container recurring weekly freight agreement.",
+      "createdAt": "2026-03-02T12:00:00Z"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt_01",
+      "businessId": "biz_01",
+      "businessName": "TechCorp Logistics",
+      "submittedByEmail": "sarah@techcorp.io",
+      "subject": "Request assistance with Meta Cloud API Webhook token rotation",
+      "description": "We are updating our Meta App secret and need verification check on our webhook listener.",
+      "priority": "High",
+      "status": "In Progress",
+      "replies": [
+        {
+          "id": "rep_01",
+          "sender": "Super Admin",
+          "text": "Hello Sarah, your webhook endpoint is verified and active. You can rotate tokens in Settings > WhatsApp Cloud API.",
+          "timestamp": "2026-03-02 11:30 AM"
+        }
+      ],
+      "createdAt": "2026-03-02T09:15:00Z",
+      "updatedAt": "2026-03-02T11:30:00Z"
+    }
+  ],
+  "subscriptionPlans": [
+    {
+      "id": "plan_trial",
+      "name": "Free Trial",
+      "pricePKR": 0,
+      "priceUSD": 0,
+      "interval": "monthly",
+      "features": [
+        "100 WhatsApp Messages",
+        "250 Contacts",
+        "1 Team Agent",
+        "Shared Team Inbox",
+        "Basic Auto-Replies",
+        "14-Day Free Evaluation"
+      ],
+      "maxContacts": 250,
+      "maxMessages": 100,
+      "maxAgents": 1,
+      "isPopular": false,
+      "active": true
+    },
+    {
+      "id": "plan_starter",
+      "name": "Starter",
+      "pricePKR": 499,
+      "priceUSD": 5,
+      "interval": "monthly",
+      "features": [
+        "1,000 Messages / month",
+        "1,000 Contacts",
+        "2 Team Agents",
+        "Shared Team Inbox",
+        "Quick Replies & Templates",
+        "Custom Lead Tags",
+        "Standard Analytics"
+      ],
+      "maxContacts": 1000,
+      "maxMessages": 1000,
+      "maxAgents": 2,
+      "isPopular": false,
+      "active": true
+    },
+    {
+      "id": "plan_pro",
+      "name": "Professional",
+      "pricePKR": 999,
+      "priceUSD": 10,
+      "interval": "monthly",
+      "features": [
+        "5,000 Messages / month",
+        "5,000 Contacts",
+        "5 Team Agents",
+        "Visual Chatbot Builder",
+        "Broadcast Campaigns",
+        "Kanban Sales Pipeline",
+        "CSV Import & Export",
+        "Priority Webhook Queue"
+      ],
+      "maxContacts": 5000,
+      "maxMessages": 5000,
+      "maxAgents": 5,
+      "isPopular": true,
+      "active": true
+    },
+    {
+      "id": "plan_biz",
+      "name": "Business",
+      "pricePKR": 1999,
+      "priceUSD": 20,
+      "interval": "monthly",
+      "features": [
+        "25,000 Messages / month",
+        "25,000 Contacts",
+        "15 Team Agents",
+        "Full Gemini AI Assistant",
+        "Advanced Workflow Automations",
+        "Shopify & WooCommerce Sync",
+        "Appointments Booking",
+        "Custom Webhooks & API"
+      ],
+      "maxContacts": 25000,
+      "maxMessages": 25000,
+      "maxAgents": 15,
+      "isPopular": false,
+      "active": true
+    },
+    {
+      "id": "plan_enterprise",
+      "name": "Enterprise",
+      "pricePKR": 4999,
+      "priceUSD": 50,
+      "interval": "monthly",
+      "features": [
+        "Unlimited Messages (Fair Use)",
+        "100,000 Contacts",
+        "50 Team Agents",
+        "Dedicated WhatsApp Account Manager",
+        "Multi-WABA Load Balancing",
+        "Custom SLA & 99.99% Uptime",
+        "White-label Custom Domain"
+      ],
+      "maxContacts": 100000,
+      "maxMessages": 100000,
+      "maxAgents": 50,
+      "isPopular": false,
+      "active": true
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_01",
+      "businessId": "biz_01",
+      "businessName": "TechCorp Logistics",
+      "amount": 1999,
+      "currency": "PKR",
+      "planName": "Business",
+      "status": "Paid",
+      "invoiceNumber": "INV-2026-0041",
+      "paymentMethod": "Bank Transfer / JazzCash",
+      "date": "2026-03-01"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cpn_01",
+      "code": "RDXPRO20",
+      "discountPercent": 20,
+      "active": true,
+      "expiryDate": "2026-12-31",
+      "usageCount": 14,
+      "maxUsage": 100
+    }
+  ]
+}

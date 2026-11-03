@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #FFFFFF;
+  --color-surface: #F8FAFC;
+  --color-surface-card: #FFFFFF;
+  --color-navy: #101D35;
+  --color-primary: #55B9F5;
+  --color-primary-hover: #38A9F3;
+  --color-accent-soft: #EAF6FF;
+  --color-text-main: #101D35;
+  --color-text-muted: #64748B;
+  --color-border: #E2E8F0;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #128C7E;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+[data-theme="dark_professional"] {
+  --color-bg: #0B1120;
+  --color-surface: #101B2E;
+  --color-surface-card: #152238;
+  --color-navy: #F1F5F9;
+  --color-primary: #38BDF8;
+  --color-primary-hover: #0EA5E9;
+  --color-accent-soft: #1E293B;
+  --color-text-main: #F8FAFC;
+  --color-text-muted: #94A3B8;
+  --color-border: #22324C;
+}
+
+[data-theme="ocean_blue"] {
+  --color-bg: #0A192F;
+  --color-surface: #0E223D;
+  --color-surface-card: #142B4D;
+  --color-navy: #F0FDF4;
+  --color-primary: #00D8F6;
+  --color-primary-hover: #00B8D4;
+  --color-accent-soft: #1B385E;
+  --color-text-main: #E2E8F0;
+  --color-text-muted: #8892B0;
+  --color-border: #1E3D60;
+}
+
+[data-theme="midnight"] {
+  --color-bg: #050811;
+  --color-surface: #0B101D;
+  --color-surface-card: #101726;
+  --color-navy: #FFFFFF;
+  --color-primary: #60A5FA;
+  --color-primary-hover: #3B82F6;
+  --color-accent-soft: #172033;
+  --color-text-main: #F8FAFC;
+  --color-text-muted: #94A3B8;
+  --color-border: #1E293B;
+}
+
+[data-theme="royal_purple"] {
+  --color-bg: #0F0A1E;
+  --color-surface: #17112E;
+  --color-surface-card: #201740;
+  --color-navy: #FAF5FF;
+  --color-primary: #C084FC;
+  --color-primary-hover: #A855F7;
+  --color-accent-soft: #2E1F54;
+  --color-text-main: #FAF5FF;
+  --color-text-muted: #A8A29E;
+  --color-border: #33235E;
+}
+
+[data-theme="sunset"] {
+  --color-bg: #14121E;
+  --color-surface: #1E1A2D;
+  --color-surface-card: #29243E;
+  --color-navy: #FFF7ED;
+  --color-primary: #F97316;
+  --color-primary-hover: #EA580C;
+  --color-accent-soft: #382B24;
+  --color-text-main: #FFF7ED;
+  --color-text-muted: #A8A29E;
+  --color-border: #3F3354;
+}
+
+[data-theme="minimal_bw"] {
+  --color-bg: #FFFFFF;
+  --color-surface: #F4F4F5;
+  --color-surface-card: #FFFFFF;
+  --color-navy: #09090B;
+  --color-primary: #18181B;
+  --color-primary-hover: #27272A;
+  --color-accent-soft: #F4F4F5;
+  --color-text-main: #09090B;
+  --color-text-muted: #71717A;
+  --color-border: #E4E4E7;
+}
+
+/* Custom Scrollbar for WhatsApp chat and sidebar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
